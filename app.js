@@ -38,7 +38,7 @@ test.keydown(function (event){
 function goOne (param){
     let i = 0;
     let autoPlay = setInterval(function (){
-        if(i < 50){
+        if(i < 30){
             let l = Math.floor(Math.random() * param.length);
             kbd.each(function (){
                 if($(this).text() === param[l]){
